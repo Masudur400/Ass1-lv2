@@ -142,9 +142,9 @@
 
 
     const products: Product[] = [
-        { name: "Pen", price: 100 },
+        { name: "Pen", price: 10 },
         { name: "Notebook", price: 25 },
-        { name: "Bag", price: 0 }
+        { name: "Bag", price: 50 }
     ];
 
     const mostExpensiveProduct = getMostExpensiveProduct(products);

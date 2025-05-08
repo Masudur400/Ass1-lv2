@@ -41,7 +41,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     //   };
     // function filterByRating(items: Book[]): Book[] {
     //     return items.filter((item) => item.rating >= 4);
-    // }
+    // } 
     // const books = [
     //     { title: "Book A", rating: 3 },
     //     { title: "Book B", rating: 3.2 },
@@ -100,9 +100,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         });
     }
     const products = [
-        { name: "Pen", price: 100 },
+        { name: "Pen", price: 10 },
         { name: "Notebook", price: 25 },
-        { name: "Bag", price: 0 }
+        { name: "Bag", price: 50 }
     ];
     const mostExpensiveProduct = getMostExpensiveProduct(products);
     console.log(mostExpensiveProduct);
